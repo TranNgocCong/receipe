@@ -65,7 +65,7 @@
   &__title {
     grid-column: 1/-1;
     font-size: 1.45rem;
-    color: $color-primary;
+    color: $color-primary-2;
     text-transform: uppercase;
     font-weight: 600;
 
@@ -99,7 +99,7 @@
     svg {
       height: 1.2rem;
       width: 1.2rem;
-      fill: $color-primary;
+      fill: $color-primary-2;
     }
   }
 }

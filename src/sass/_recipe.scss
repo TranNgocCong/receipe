@@ -17,11 +17,11 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(
+      /*background-image: linear-gradient(
         to right bottom,
         $color-grad-1,
         $color-grad-2
-      );
+      );*/
       opacity: 0.6;
     }
   }
@@ -52,7 +52,7 @@
       padding: 1.3rem 2rem;
       background-image: linear-gradient(
         to right bottom,
-        $color-grad-1,
+        #fbdb89,
         $color-grad-2
       );
     }
@@ -84,7 +84,7 @@
   &__info-icon {
     height: 2.35rem;
     width: 2.35rem;
-    fill: $color-primary;
+    fill: $color-primary-2;
     margin-right: 1.15rem;
   }
 
@@ -115,7 +115,7 @@
     svg {
       height: 2.25rem;
       width: 2.25rem;
-      fill: $color-primary;
+      fill: $color-primary-2;
     }
   }
 

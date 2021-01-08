@@ -17,14 +17,18 @@
     content: '';
     display: table;
     clear: both;
+    
+
   }
 
   &__btn {
     &--prev {
       float: left;
+      color: $color-primary-2;
     }
     &--next {
       float: right;
+      color: $color-primary-2;
     }
   }
 }
